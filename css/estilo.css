@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(245, 220, 245);
+}
+
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+nav {
+    background-color: rgb(205, 143, 205);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: rgb(168, 111, 168);
+    transform: scale(1.1);
+}
+
+
+section {
+    background-image: url('../images/desktop-wallpaper-pink-lavender-mint-watercolour-brushstrokes-background.jpg');
+    background-position: center;
+    padding: 20px;
+}
+
+section .titulos {
+    color: rgb(2, 125, 136);
+    font-size: 4cap;
+}
+
+
+.evento {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 172, 227, 0.5);
+    border-bottom: 5px solid rgb(175, 209, 207);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.evento .imagen {
+    flex: 0 0 150px;
+    background-color: rgba(255, 188, 227, 0.5);
+    margin-right: 20px;
+}
+
+.evento .imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.evento .texto {
+    flex: 1px;
+    background-color: rgba(220, 164, 244, 0.5);
+    padding: 10px;
+    font-size: 1.1rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.evento .input {
+    margin-bottom: 1cap;
+    width: 95%;
+    height: 25px;
+}
+
+.evento .input2 {
+    margin-top: 2cap;
+    width: 95%;
+    height: 240px;
+}
+
+.evento .botonR {
+    color: rgb(38, 97, 93);
+    background-color: rgb(175, 209, 207);
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.evento .botonR:hover{
+    background-color: rgb(8, 164, 196);
+    transform: scale(1.1);
+    color: white;
+}
+
+.evento .boton {
+    margin-top: 2cap;
+    width: 150px;
+    height: 230px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.evento .boton:hover{
+    background-color: rgb(8, 164, 196);
+    transform: scale(1.1);
+    color: white;
+}
+
+/* Aside */
+aside {
+    background-color: rgba(255, 113, 208, 0.5);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(175, 209, 207);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .boton{
+    margin-right: 10px;
+    padding: 3px;
+}
+
+footer .boton:hover{
+    background-color: rgb(168, 111, 168);
+    transform: scale(1.1);
+}
+
+footer a {
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+footer a:hover {
+    background-color: rgb(168, 111, 168);
+    transform: scale(1.1);
+}
